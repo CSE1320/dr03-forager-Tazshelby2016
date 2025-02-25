@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import NavBar from '../../components/NavBar';
+import Message from '../../components/Message';
 
 export default function MushroomPage() {
   return (
