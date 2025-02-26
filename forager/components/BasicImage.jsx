@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BasicImage({height, width, hazard, alt, src}){
+function BasicImage({height=0, width=0, hazard=false, alt="You need to replace me.", src}){
     // Will do CSS magic trick later
     if (hazard){
         return (
