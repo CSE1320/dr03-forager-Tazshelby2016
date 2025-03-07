@@ -6,7 +6,7 @@ function BasicImage({height=0, width=0, hazard=false, alt="You need to replace m
     const iconReturn = "<><svg src=\"././public/icons/icon_warning.svg\"></svg>" + simpleReturn + "</>";
 
     const fixPath = "\"" + src + "\""
-gi
+
     if (hazard){
         return (
             <div>
