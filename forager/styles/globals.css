@@ -3,3 +3,11 @@ body, html{
   width: 100%;
   height: 100%;
 }
+
+.AbsolutePosition{
+  position: absolute;
+}
+
+.RelativePosition{
+  position: relative;
+}
