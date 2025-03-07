@@ -1,11 +1,11 @@
 import React from 'react';
-import BasicImage from '@/components/BasicImage'
+import Background from '././components/Background'
 
 
 const MockCamera = () =>{
     return (
         <>
-          <BasicImage height="100px" width="100px" alt="testing" src="image1.png" hazard={true} />
+          <Background alt="camera" src="image1.png"/>
         </>
     );
 }
