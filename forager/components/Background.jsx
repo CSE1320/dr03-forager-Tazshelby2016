@@ -4,7 +4,7 @@ import React from 'react';
 
 function Background({alt="You need to replace me.", src=""}){
     return(
-        <img className="full-w full-h AbsolutePosition" src={src} alt={alt}>
+        <img className="full-w full-h absolute" src={src} alt={alt}>
         </img>
     );
 }

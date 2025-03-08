@@ -1,11 +1,15 @@
 import NavBar from '../../components/NavBar';
-import Background from '../../components/Background'
+import BackgroundCamera from '../../components/BackgroundCamera'
+import BasicImage from '../../components/BasicImage'
+import ClickableImage from '../../components/ClickableImage';
 
 export default function PhotoSearchPage() {
   return (
     <div className="relative">
-      <h1 className="">Photo Search Page</h1>
-      <Background src="image1.png" alt="Camera image"/>
+      <BackgroundCamera src="image1.png" alt="Camera image"/>
+      <h1 className="absolute">Photo Search Page</h1>
+      
+      <ClickableImage href="/comparison" passesHref={true} src="Rectangle 16.png" alt="Camera button" imageTailwind="absolute size-15 left-16 top-44" hazard={false}/>
       <NavBar className="absolute" />
     </div>
   );

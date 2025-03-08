@@ -1,14 +1,16 @@
 import React from 'react';
 
-function BasicImage({height=0, width=0, hazard=false, alt="You need to replace me.", src=""}){
+function BasicImage({imageTailwind="", hazard=false, alt="You need to replace me.", src=""}){
+    const finalImgTail= imageTailwind + " absolute full-w full-h"
+    
     // Will do CSS magic trick later
     const simpleReturn = (
-        <img src={src} alt={alt} height={height} width={width} />
+        <img src={src} alt={alt} className={imageTailwind} />
     );
     const iconReturn = (
         <div className = "relative box-content size-32">
-            <img className = "absolute full-w full-h" src="/icons/icon_warning.svg"></img>
-            <img className = "absolute full-w full-h" src={src} alt={alt} />
+            <img className = {finalImgTail} src="/icons/icon_warning.svg"></img>
+            <img className = {finalImgTail} src={src} alt={alt} />
         </div>
     );
 
