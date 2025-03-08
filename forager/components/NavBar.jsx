@@ -7,15 +7,21 @@ import styles from '../styles/NavBar.module.css'; // Import the styles for the N
 export default function NavBar() {
   return (
     <menu className={styles.navbar}>
-      <ClickableDiv href="/mushroom" innerClassName={styles.navItem}>
-        <TbMushroom/>
-      </ClickableDiv>
-      <ClickableDiv href="/dashboard" innerClassName={styles.navItem}>
-        <FaHome/>
-      </ClickableDiv>
-      <ClickableDiv href="/photosearch" innerClassName={styles.navItem}>
-        <FaSearch/>
-      </ClickableDiv>
+      <li>
+        <ClickableDiv href="/mushroom" innerClassName={styles.navItem}>
+          <TbMushroom/>
+        </ClickableDiv>
+      </li>
+      <li>
+        <ClickableDiv href="/dashboard" innerClassName={styles.navItem}>
+          <FaHome/>
+        </ClickableDiv>
+      </li>
+      <li>
+        <ClickableDiv href="/photosearch" innerClassName={styles.navItem}>
+          <FaSearch/>
+        </ClickableDiv>
+      </li>
     </menu>
   );
 }

@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import ClickableElement from './ClickableElement';
 
 function ClickableImage({href="", innerClassName="", children=""}){

@@ -5,4 +5,4 @@ const mushroom = {
     Hazards: {Hazardous: true},
     Locations: [""]
 }
-export {mushrooms}
+export {mushroom}
