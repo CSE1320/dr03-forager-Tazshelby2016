@@ -6,16 +6,16 @@ import styles from '../styles/NavBar.module.css'; // Import the styles for the N
 
 export default function NavBar() {
   return (
-    <div className={styles.navbar}>
-      <ClickableDiv href="/mushroom" passesHref={true} classNames={styles.navItem}>
+    <menu className={styles.navbar}>
+      <ClickableDiv href="/mushroom" innerClassName={styles.navItem}>
         <TbMushroom/>
       </ClickableDiv>
-      <ClickableDiv href="/dashboard" passesHref={true} classNames={styles.navItem}>
+      <ClickableDiv href="/dashboard" innerClassName={styles.navItem}>
         <FaHome/>
       </ClickableDiv>
-      <ClickableDiv href="/photosearch" passesHref={true} classNames={styles.navItem}>
+      <ClickableDiv href="/photosearch" innerClassName={styles.navItem}>
         <FaSearch/>
       </ClickableDiv>
-    </div>
+    </menu>
   );
 }

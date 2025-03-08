@@ -1,10 +1,10 @@
 import React, { Children } from 'react';
 import ClickableElement from './ClickableElement';
 
-function ClickableImage({href="", passesHref=false, classNames="", children=""}){
+function ClickableImage({href="", innerClassName="", children=""}){
     return(
-        <ClickableElement href={href} passesHref={passesHref}>
-            <div className={classNames}>
+        <ClickableElement href={href}>
+            <div className={innerClassName}>
                 {children}
             </div>
         </ClickableElement>

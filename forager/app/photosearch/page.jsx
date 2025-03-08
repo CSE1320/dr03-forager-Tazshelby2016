@@ -9,7 +9,7 @@ export default function PhotoSearchPage() {
       <BackgroundCamera src="image1.png" alt="Camera image"/>
       <h1 className="absolute">Photo Search Page</h1>
       
-      <ClickableImage href="/comparison" passesHref={true} src="Rectangle 16.png" alt="Camera button" imageTailwind="absolute size-15 left-16 top-44" hazard={false}/>
+      <ClickableImage href="/comparison" src="Rectangle 16.png" alt="Camera button" imageTailwind="absolute size-15 left-16 top-44" hazard={false}/>
       <NavBar className="absolute" />
     </div>
   );

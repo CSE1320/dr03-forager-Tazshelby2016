@@ -9,8 +9,8 @@ function BasicImage({imageTailwind="", hazard=false, alt="You need to replace me
     );
     const iconReturn = (
         <div className = "relative box-content size-32">
-            <img className = {finalImgTail} src="/icons/icon_warning.svg"></img>
             <img className = {finalImgTail} src={src} alt={alt} />
+            <img className = "absolute full-w full-h" src="/icons/icon_warning.svg"></img>
         </div>
     );
 
