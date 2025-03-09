@@ -2,9 +2,9 @@
 ####################### Makefile Template ##############################
 ########################################################################
 # Student settings
-NAME = YOURNAME
-SID = YOURSID
-EMAIL = YOURUTAEMAIL
+NAME = Bryan Badgero
+SID = 1001864888
+EMAIL = bxb4888@mavs.uta.edu
 SEMESTER = SPRING2025
 PROJECT=PROJ03
  
