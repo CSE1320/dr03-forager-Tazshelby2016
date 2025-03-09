@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { FaHome, FaSearch } from 'react-icons/fa';
 import { TbMushroom } from "react-icons/tb";
 import ClickableDiv from "./ClickableDiv"
